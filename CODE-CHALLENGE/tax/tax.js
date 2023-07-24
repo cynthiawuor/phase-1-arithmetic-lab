@@ -20,3 +20,17 @@ return Payee
 }
 
 console.log("payee; ", calculatePayeeTax(40000))
+
+
+
+function calculateNHIF(salary){
+var Deductions
+if (salary <=5909)
+Deductions = 150;
+if (salary >= 100000)
+Deductions = 1700
+
+return Deductions
+}
+
+console.log("NHIF; ", calculateNHIF(120000))
