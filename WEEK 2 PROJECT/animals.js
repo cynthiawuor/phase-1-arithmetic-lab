@@ -1,9 +1,9 @@
-GET/characters
-Response
+{
+    "characters";
 {
 "id";1
 
-"name";Tigers
+"name";Tiger
 
 "image";https://animalsafari.com/9-types-of-tigers-6-endangered-3-extinct/
 
@@ -14,7 +14,7 @@ Response
 {
 "id";2
 
-"name";Pythons
+"name";Python
 
 "image";https://en.wikipedia.org/wiki/List_of_pythonid_species_and_subspecies
 
@@ -32,8 +32,7 @@ Response
 
 }
 
-GET/characters/id
-Response
+"characters/id"
 {
 "id";1,
 
@@ -62,5 +61,8 @@ Response
 "name";https://en.wikipedia.org/wiki/Grey-cheeked_mangabey
 
 "vote";0
+
 }
 
+
+}
